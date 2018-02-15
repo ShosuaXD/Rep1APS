@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 void proceso (long dec)
 {
-	printf("%ld en binario es: ",dec);
+	printf("%ld el numero que me diste en binario es: ",dec);
 	while (dec!=0)
 	{
 		if (dec%2==0)
