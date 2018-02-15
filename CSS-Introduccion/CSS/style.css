@@ -1,0 +1,63 @@
+/*SELECTOR DE ETIQUETA*/
+body{
+	background: white;
+	margin: 0px;
+	padding: 0px;
+	height: 100; 
+
+}
+
+h1{
+	color: gray;
+	font-size: xx-large;
+	text-align: center;
+	background: black;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+li{
+	display: inline;
+	padding: 0px;
+
+}
+
+/*SELECTORES DE CLASE*/
+.menu-nav{
+	text-align: center;
+}
+
+.footer{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 200px;
+	width: 100%;
+}
+.menu-footer{
+	text-align: center;
+	padding: 10px;
+	font-size: 15px;
+	color: red;
+	background: gray;
+}
+
+/*SELECTOR DESCENDENTE */
+.menu-nav a{
+	text-align: center;
+	padding: 10px;
+	font-size: 15px;
+	size: black;
+	background: gray;
+}
+
+/*SELECTOR DE ID*/
+*#color{
+	color: green;
+}
+
+/*SELECTOR DE PSEUDOCLASE*/
+a:visited{
+	color: yellow;
+}
