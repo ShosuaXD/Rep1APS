@@ -1,3 +1,4 @@
+
 //Programa hecho por Liber Adrián Hernández Abad
 
 #include <stdio.h>
@@ -10,6 +11,7 @@ int main(int argc, char *argv[])
 {
 	char *apuntador; //Variable que recibe la parte de cadena del arreglo
 	long dec; //Variable que recibe la parte numerica del arreglo
+	printf("hola mundo"); //agregue un mensaje
 	dec=strtol(argv[1],&apuntador,10); //10 es la base
 	proceso(dec);
 }
